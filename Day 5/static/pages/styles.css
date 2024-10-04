@@ -1,0 +1,25 @@
+.img_deg
+    {
+        float: inline-start;
+    }
+h1{
+        color: #000000;
+        background-color: #ff0000;
+    }
+    hr{
+            
+        color: #ff0000;
+        border-color: #ff0000;
+        background-color: #ff0000;
+
+            
+        
+    } 
+
+p{
+    color : #000000;
+    background-color: #00ff1e;
+}
+body{
+    background-color: CadetBlue;
+}

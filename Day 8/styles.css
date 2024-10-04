@@ -1,0 +1,43 @@
+body{
+    font-family: sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+
+li{
+    border-radius: 100px 100px 100px 100px;
+    display: inline-block;
+    width: 25%;
+    border-color: grey;
+    border-width: thick;
+    border-style: solid;
+    background-color: grey;
+}
+.belowmenuhr{
+    border-color: grey;
+    border-width: thick;
+    border-style: solid;
+    width: 100%;
+}
+a:link{
+    color: white;
+    
+    text-decoration: none;
+
+}
+
+
+a:visited{
+    color: white;
+    text-decoration: none;}
+
+.menu{
+    border-radius: 100px 100px 100px 100px;
+    background-color: black;
+    width: 50%;
+    height: 5em;
+    display: inline-block;
+    line-height: 2.5em;
+}

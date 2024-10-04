@@ -1,0 +1,47 @@
+body{
+    background-color: #ff00f7;
+    margin: 0;
+    padding: 0;
+    
+}
+h2{
+    display: inline-block;
+    width : 10%;
+    height: 10%;
+   
+}
+
+h1{
+    color: #FF0000;
+    background-color: #00ff;
+    max-width: 50%;
+}
+hr{
+    color: #00ff00;
+    border-color: #00ff00;
+    background-color: #00ff00;
+}
+p{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-color: red;
+    border-width: thick;
+    border-style: inset;
+}
+h4{
+    width: 50%;
+    height: 10%;
+    overflow: scroll;
+    color: #fFFFff;
+    background-color: #000000;
+}
+li{
+    border-radius: 100px 10px 100px 10px;
+    display: inline-block;
+    width: 25%;
+    border-color: blue;
+    border-width: thick;
+    border-style: groove;
+}

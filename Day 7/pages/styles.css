@@ -1,0 +1,54 @@
+div{
+    background-color: yellow;
+    width: 50%;
+    height: 5em;
+    display: inline-block;
+    line-height: 2.5em;
+}
+a:link{
+    color: white;
+    
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: yellow;
+    background-color: blue;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+li{
+    border-radius: 100px 10px 100px 10px;
+    display: inline-block;
+    width: 15%;
+    border-color: blue;
+    border-width: thick;
+    border-style: solid;
+    background-color: blue;
+    
+}
+.one{
+    background-color: #ff00f7;
+}
+.two{
+    background-color: #00ff00;
+}
+body{
+    font-family: sans-serif;
+    background-color: lightpink;
+    margin: 0;
+    padding: 0;
+}
+.warning{
+    color: red;
+    background-color: yellow;
+    max-width: 50%;
+}
+.instruct{
+    color: blue;
+    background-color: yellow;
+    max-width: 50%;
+}

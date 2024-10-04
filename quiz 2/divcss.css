@@ -1,0 +1,9 @@
+div{
+    line-height: 4.7em;
+    text-align: center;
+    background-color: lightpink;
+    border-style: dashed;
+    border-color: blue;
+    width: 10%;
+    height: 5em;
+}
