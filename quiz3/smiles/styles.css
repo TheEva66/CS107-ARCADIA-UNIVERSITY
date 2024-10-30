@@ -1,0 +1,12 @@
+body{
+    background-image: url("smiles.jpg");
+}
+h1{
+    color: white;
+    text-align: center;
+    background-color: orange;
+}
+p{
+    color: black;
+    background-color: white;
+}

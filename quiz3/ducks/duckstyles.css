@@ -1,0 +1,16 @@
+img{
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    margin-right: 10px;
+}
+body{
+    background-color: #90ee90;
+}
+h1{
+    color:white;
+    background-color: #3cb371;
+}
+.divcenter{
+    text-align: center;
+}
