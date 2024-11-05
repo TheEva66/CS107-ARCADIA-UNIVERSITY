@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Template</title>
+        <link href = "styles.css" rel = "stylesheet" type = "text/css">
+    </head>
+    <body>
+        
+        <div class="menu">
+            <ul><a href="index.html"><li>Home</li></a>
+            </ul>
+            
+
+        </div>
+        <div id="dynamic">Yes</div>
+        <hr class ="belowmenuhr">
+        <button onclick="alert('Hello World')">Click Me</button>
+        <button onclick="action1()"> No Click Me</button>
+        <button onclick="action2()"> Yes Click Me</button>
+        <script>
+            function action1(){
+                document.getElementById("dynamic").innerHTML = "No";
+            }
+            function action2(){
+                document.getElementById("dynamic").innerHTML = "Yes";
+            }
+            alert("Hello World");
+            document.write("<h1>Hello World</h1>");
+        </script>
+        <hr class ="belowmenuhr">
+    </body>
+</html>

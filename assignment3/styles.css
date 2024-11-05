@@ -1,0 +1,96 @@
+body{
+    font-family: sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+.portalclass{
+    font-family: serif;
+    text-align: center;
+    border-spacing: 0px;
+
+}
+.others{
+    border-spacing: 0px;
+    background-color: #efefef;
+
+
+}
+td {
+	border: 1px solid white;
+	padding: 15px;
+    border-spacing: 0px;
+
+}
+th {
+	border: 1px solid white;
+    border-spacing: 0px;
+	padding: 15px;
+    color:#5f7729;
+    font-size: 150%;
+}
+.wheatley{
+    background-color: #d2e6ac;
+}
+.title{
+    background-color: #efefef;
+    font-size: 140%;
+}
+.wheatleytitle{
+    font-size: 140%;
+    background-color: #d2e6ac;
+}
+.centered{
+    text-align: center;
+}
+li{
+    border-radius: 100px 100px 100px 100px;
+    display: inline-block;
+    width: 20%;
+    border-color: grey;
+    border-width: thick;
+    border-style: solid;
+    background-color: grey;
+}
+.belowmenuhr{
+    border-color: grey;
+    border-width: thick;
+    border-style: solid;
+    width: 100%;
+}
+a:link{
+    color: white;
+    
+    text-decoration: none;
+
+}
+img{
+    display: inline-block
+}
+.link2{
+    color: blue;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;}
+
+.menu{
+    margin-left: 25%; 
+    text-align: center;
+    border-radius: 100px 100px 100px 100px;
+    background-color: black;
+    width: 50%;
+    height: 5em;
+    display: inline-block;
+    line-height: 2.5em;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif ;
+}
+p{
+    text-align: center;
+    font-family: sans-serif ;
+}
