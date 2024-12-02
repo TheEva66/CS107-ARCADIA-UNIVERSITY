@@ -2,18 +2,63 @@
 
 <html></html>
     <head>
-        <title>Template</title>
+        <title>index</title>
         <link href = "styles.css" rel = "stylesheet" type = "text/css">
     </head>
     <body>
         
         <div class="menu">
             <ul><a href="index.html"><li>Home</li></a>
+                <a href="form.html"><li>form</li></a>
+                
             </ul>
             
 
         </div>
+        
         <hr class ="belowmenuhr">
+        <div class="centered">
+        <form action="form.html" method="POST">
+            <fieldset>
+                <legend>Identity and comments</legend>
+            <p>First Name:<br /><input type="text" name="firstname" placeholder="First Name"/></p>
+            <p>Last Name:<br /><input type="text" name="lastname" placeholder="Last Name"/></p>
+            <p>Comments<br /><textarea name="paragraph"></textarea></p>
+            <p>Password:<br /><input type="password" name="password" placeholder="Password"/></p>
+            </fieldset>
+            <fieldset>
+                <legend>Radio buttons, checkboxes, dropdowns, and file uploads</legend>
+            <p>Radio buttons:<br />
+                <input type="radio" name="somename" value="1"/>1
+                <input type="radio" name="somename" value="2"/>2
+                <input type="radio" name="somename" value="3"/>3
+                
+            </p>
+            <p>Checkboxes <br />
+                <input type="checkbox" name="checkname" value="1"/>1
+                <input type="checkbox" name="checkname" value="2"/>2
+                <input type="checkbox" name="checkname" value="3"/>3
+
+                
+
+            </p>
+            <p>Dropdown <br />
+                <select name="Dropdown">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+
+                </select>
+            </p>
+            <p>File upload <br />
+                <input type="file" name="fileupload"/>
+            </p>
+            <p>Reset button</p>
+            <input type="reset" value="Click here to reset"/>
+            <input type="submit" value="Click here to submit"/>
+        </fieldset>
+        </form>
+    </div>
         <hr class ="belowmenuhr">
     </body>
 </html>
