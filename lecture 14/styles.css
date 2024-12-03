@@ -6,6 +6,10 @@ body{
 }
 
 .centered{
+    
+    margin-left: 25%;
+    width: 50%;
+    margin-right:auto;
     text-align: center;
 }
 li{
@@ -28,6 +32,13 @@ a:link{
     
     text-decoration: none;
 
+}
+img{
+    display: inline-block
+}
+.link2{
+    color: blue;
+    text-decoration: underline;
 }
 
 a:visited{
