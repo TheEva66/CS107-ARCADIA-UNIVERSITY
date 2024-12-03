@@ -1,0 +1,87 @@
+
+<head>
+    <title>Oak Summit Apartments Reservation</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body style="background-image: url('oak.jpg'); background-repeat: no-repeat; background-size: cover;" >
+    <header>
+        <div class="logo-container">
+            
+            <img src="Arcadia.svg" alt="Arcadia Logo" class="logo">
+        </div>        
+        <h1>Oak Summit Apartments Reservation</h1>
+    </header>
+    <form id="reservation-form">
+        <fieldset>
+            <legend>Guest Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address">
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Reservation Details</legend><hr class="hr-styled">
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin" required>
+
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout" required>
+
+            <legend>Room Type:</legend>
+            <div class="center">
+                <input type="radio" id="nonsmoking" name="room_type" value="nonsmoking" checked>
+                <label for="nonsmoking">Non-Smoking</label><hr class="hr-styled">
+            
+                <input type="radio" id="smoking" name="room_type" value="smoking">
+                <label for="smoking">Smoking</label>
+            <hr class="hr-styled">
+            </div>
+            <legend>Addons</legend><hr class="hr-styled">
+            <div class="addon-options">
+                <label for="breakfast">
+                    <input type="checkbox" id="breakfast" name="addons" value="breakfast">
+                    Breakfast
+                </label>
+                <hr class="hr-styled">
+                <label for="parking">
+                    <input type="checkbox" id="parking" name="addons" value="parking" checked>
+                    Parking
+                </label>
+                <hr class="hr-styled">
+                <label for="wifi">
+                    <input type="checkbox" id="wifi" name="addons" value="wifi" checked>
+                    WiFi
+                </label>
+                <hr class="hr-styled">
+            </div>
+
+            <label for="nationality">Nationality:</label>
+            <select id="nationality" name="nationality">
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+                <option value="uk">United Kingdom</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional Information</legend>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+        </fieldset>
+
+        <div class="buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>

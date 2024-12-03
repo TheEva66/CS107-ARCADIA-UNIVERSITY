@@ -1,0 +1,132 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #800000; 
+    color: white;
+}
+
+header .logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.hr-styled {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, grey, #800000);
+    margin: 20px 0; 
+    border-radius: 5px; 
+}
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.center {
+    text-align: center;
+}
+fieldset label {
+    display: flex;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+fieldset input[type="radio"] {
+    margin: 0;
+}
+
+fieldset hr {
+    margin: 10px 0; 
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #800000, #f4f4f4, #800000);
+    border-radius: 5px;
+}
+
+fieldset input[type="checkbox"] {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+fieldset .addon-options {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset label[for="breakfast"],
+fieldset label[for="parking"],
+fieldset label[for="wifi"] {
+    display: inline;
+    align-items: center;
+    margin-bottom: 5px;
+}
+fieldset {
+    border: 1px solid #800000;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: #800000;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: none;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #800000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #660000;
+}
