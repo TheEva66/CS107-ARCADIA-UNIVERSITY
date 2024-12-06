@@ -1,0 +1,98 @@
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer .social-links a {
+    color: #ff6347;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer .social-links a:hover {
+    color: #e5533d;
+}
+
+.locations-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.locations-header .logo img {
+    height: 50px;
+}
+
+.locations-header .locations-nav a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.locations-header .locations-nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.locations-content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #545454;
+    color: #fff;
+}
+
+.locations-content h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.location {
+    margin-bottom: 40px;
+}
+
+.location h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.location p {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.location .map {
+    margin-top: 15px;
+}
+
+.location iframe {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.locations-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.locations-footer .social-links a {
+    color: #ff6347;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.locations-footer .social-links a:hover {
+    color: #e5533d;
+}

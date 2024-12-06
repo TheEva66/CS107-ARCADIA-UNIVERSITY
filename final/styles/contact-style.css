@@ -1,0 +1,151 @@
+
+
+.contact-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.contact-header .logo img {
+    height: 50px;
+}
+
+.contact-header .contact-nav a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-header .contact-nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contact-content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-content h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.contact-info, .contact-form, .contact-map {
+    margin-bottom: 40px;
+}
+
+.contact-info h2, .contact-form h2, .contact-map h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #e5533d;
+}
+
+.contact-map .map {
+    margin-top: 15px;
+}
+
+.contact-map iframe {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.contact-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.contact-footer .social-links a {
+    color: #ff6347;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.contact-footer .social-links a:hover {
+    color: #e5533d;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ff6347; 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer .social-links a {
+    color: #ff6347;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer .social-links a:hover {
+    color: #e5533d;
+}

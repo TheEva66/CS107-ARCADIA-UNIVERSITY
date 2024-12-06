@@ -1,58 +1,75 @@
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Apollo Pizza - Delicious and fresh pizzas in Glenside and Media">
     <title>Apollo Pizza</title>
-    <link rel="stylesheet" href="styles/new-style.css"> <!-- Link to the new CSS -->
+    <link rel="stylesheet" href="styles/styles.css"> 
 </head>
 <body>
-    <!-- Header Section -->
     <header>
         <div class="logo">
-            <img src="images/logo.png" alt="Apollo Pizza Logo">
+            <img src="images/logo.jpg" alt="Apollo Pizza Logo">
         </div>
         <nav class="navbar">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="html/menu.html">Menu</a></li>
-                <li><a href="html/locations.html">Locations</a></li>
-                <li><a href="html/contact.html">Contact</a></li>
+                <li><a href="index.html"><u>Home</u></a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero">
-        <img src="images/hero-pizza.jpg" alt="Freshly baked pizza">
         <div class="hero-text">
             <h1>Welcome to Apollo Pizza</h1>
-            <p>Your favorite local pizza spot!</p>
-            <a href="html/menu.html" class="btn-primary">View Menu</a>
+            <p>Your favorite local pizza place</p>
+    <section class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="images/1.jpg" alt="Appitizer">
+                <img src="images/2.jpg" alt="Appitizer">
+                <img src="images/3.jpg" alt="Burger">
+                <img src="images/4.jpg" alt="Pizza">
+                <img src="images/5.jpg" alt="Pizza">
+                <img src="images/6.jpg" alt="Sub">
+            </div>
+        </div>
+    </section>
+            <a href="menu.html" class="btn-primary">View Menu</a>
         </div>
     </section>
 
-    <!-- Main Content Section -->
+   
+
     <main>
         <section class="feature">
             <h2>Our Specialties</h2>
             <p>From classic pizzas to unique flavors, Apollo Pizza offers something for everyone.</p>
-            <a href="html/menu.html" class="btn-secondary">Explore Our Menu</a>
+            <a href="menu.html" class="btn-secondary">Explore Our Menu</a>
         </section>
         
         <section class="locations">
             <h2>Visit Us</h2>
             <p>We have locations in Glenside and Media. Stop by or order for pickup and delivery!</p>
-            <a href="html/locations.html" class="btn-secondary">Find a Location</a>
+            <a href="locations.html" class="btn-secondary">Find a Location</a>
         </section>
     </main>
 
-    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2024 Apollo Pizza - All rights reserved.</p>
+        <p>&copy; 2024 Eva Akselrad <b>NOT ACTUALLY COPYRIGHTED EDUCATIONAL USE ONLY</b>  - All rights  <b>NOT</b> reserved.</p>
         <div class="social-links">
-            <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+            <a href="https://www.facebook.com/ApolloPizzaMedia/">Facebook</a>
         </div>
     </footer>
+    <script>
+        let carouselIndex = 0;
+        const slides = document.querySelector('.carousel-slide');
+        const totalSlides = slides.children.length;
+    
+        setInterval(() => {
+            carouselIndex = (carouselIndex + 1) % totalSlides;
+            slides.style.transform = `translateX(-${carouselIndex * 100}%)`;
+        }, 3000); 
+    </script>
+    
 </body>
 </html>
 
